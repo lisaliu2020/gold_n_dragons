@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: dragon_3
+  m_EditorClassIdentifier: 
+  storyText: 'You leave the kid and power on. There''s so many trees here. As you
+    walk deeper into the forest you see some smoke coming from a hill? mountain? cave?
+
+
+    This looks like paradise here, but back there looks like death. It''s kind of
+    pulling you in.
+
+
+    Should we keep going or go back as promised?
+
+
+    1. Keep going
+
+    2. Go back'
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 5534b359c07df417c8b15446f36a02e8, type: 2}
+  karmaPoints: 3
+  lost: 0

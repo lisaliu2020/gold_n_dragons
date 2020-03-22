@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: bar_1
+  m_EditorClassIdentifier: 
+  storyText: 'You walk up to the bar and order a beer.
+
+
+    "Hey bartender, one beer please."
+
+
+    "Coming right up yougin''! You heard about the dragon right?"
+
+
+    "Yeah what''s that about?"
+
+
+    "I heard the dragon kills everyone and everything in it''s path just to gain treasure.
+    No one is willing to kill it."
+
+
+    "Ah what a shame. Thank you."
+
+
+    You walk away with your beer. Shall we start our adventure?
+
+
+    1. Listen more
+
+    2. Walk to town gate'
+  nextStates:
+  - {fileID: 11400000, guid: 4e3eaea2ed79348e083b5a495e59613c, type: 2}
+  - {fileID: 11400000, guid: 0a9b927ef83c543e89afb86b4d260e41, type: 2}

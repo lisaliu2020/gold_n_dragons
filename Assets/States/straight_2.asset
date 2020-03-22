@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: straight_2
+  m_EditorClassIdentifier: 
+  storyText: 'You keep walking straight. The road seems to be deserted.
+
+
+    There''s a left turn up ahead.
+
+
+    1. Turn left'
+  nextStates:
+  - {fileID: 11400000, guid: f8dbc940af04943f2800450c589ca03e, type: 2}
+  karmaPoints: 0

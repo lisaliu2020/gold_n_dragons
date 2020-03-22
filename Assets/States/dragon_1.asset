@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: dragon_1
+  m_EditorClassIdentifier: 
+  storyText: '"Hold on a second let me check it out."
+
+
+    Oh fu-, it''s gold. You look at the kid, he seems clueless.
+
+
+    "What is it?"
+
+
+    "Ah it''s nothing."
+
+
+    The dragon could be around, this looks like something that horrid creature would
+    steal.
+
+
+    1. Search for the dragon
+
+    2. Take kid to doctor'
+  nextStates:
+  - {fileID: 11400000, guid: d2faa4cbf22334deeb8612d4abc0d3ee, type: 2}
+  - {fileID: 11400000, guid: bd3f9e3ae3ede4d2e9d83ccf5819c9a3, type: 2}
+  karmaPoints: 3
+  lost: 0

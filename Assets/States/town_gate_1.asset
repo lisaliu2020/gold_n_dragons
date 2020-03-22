@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: town_gate_1
+  m_EditorClassIdentifier: 
+  storyText: 'You get to the gate and leave town. You walk along the path and end
+    up at a fork in the path.
+
+
+    Where shall we go?
+
+
+    1. Go straight
+
+    2. Go Left
+
+    3. Go Right'
+  nextStates:
+  - {fileID: 11400000, guid: 81b2fd78bc9c9487096fbf1a8f3ef2ff, type: 2}
+  - {fileID: 11400000, guid: 8eabd497f0ce7411eadcb4a49e0201df, type: 2}
+  - {fileID: 11400000, guid: f19396a73dbf647778785d6284342333, type: 2}
+  karmaPoints: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: ignore_1
+  m_EditorClassIdentifier: 
+  storyText: 'You take a peek and count how many injured people there are. Ugh it''s
+    going to take too long to help them out.
+
+
+    You''re breaking your knight''s vow to help people who are in need. But I guess
+    every person for themselves.
+
+
+    Whatever shall we just find somewhere else to camp tonight.
+
+
+    1. Find somewhere to camp out
+
+    2. Head to town and investigate'
+  nextStates:
+  - {fileID: 11400000, guid: 1423639068d2d47359a94c8cd19ecb9d, type: 2}
+  - {fileID: 11400000, guid: 5bc0afb7f8a1c4f7098dd4e249856099, type: 2}
+  karmaPoints: 3
+  lost: 0

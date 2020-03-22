@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: camp_1
+  m_EditorClassIdentifier: 
+  storyText: 'You find somewhere to camp out and make your bedding for the night.
+
+
+    You slept well, but feeling a bit woozy this morning. There''s no blue sky to
+    be seen. All you see is smog and ash covering the beautiful morning sun.
+
+
+    You pack up and start walking towards town and something feels off. You realize
+    that you''ve been poisioned.
+
+
+    Ugh someone must have poisioned me last night when they saw me run away or maybe
+    it was the mushrooms I picked. IS THIS KARMA?!
+
+
+    What should I do??
+
+
+    1. Head to doctor
+
+    2. Keep walking towards town'
+  nextStates:
+  - {fileID: 11400000, guid: 0cbc3251ef596436d8f9571d276a1c42, type: 2}
+  - {fileID: 11400000, guid: e0fd6577fb114482cabfe5ff2d74b82c, type: 2}
+  karmaPoints: 1
+  lost: 0

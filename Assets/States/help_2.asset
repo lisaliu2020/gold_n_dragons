@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: help_2
+  m_EditorClassIdentifier: 
+  storyText: '"Hey kiddo, you alright?"
+
+
+    "WAHHHHH"
+
+
+    "Let me see your injuries.."
+
+
+    You tend to the kids wounds. Theres burns all over the kids hands and legs. You
+    put the kid on your back and carry him towards town. The kid seemingly nods to
+    sleep on your back.
+
+
+    After walking for a while passing by burnt tree and a few dead animals, the kid
+    wakes up.
+
+
+    "Hey.. thank you brave knight. I see something shining over there."
+
+
+    The kid points to something and you squint to get a better view.
+
+
+    1. Check it out
+
+    2. Ignore it and take kid to doctor'
+  nextStates:
+  - {fileID: 11400000, guid: ce5578031ca8942958ec2826760190a2, type: 2}
+  - {fileID: 11400000, guid: bd3f9e3ae3ede4d2e9d83ccf5819c9a3, type: 2}
+  karmaPoints: -2
+  lost: 0

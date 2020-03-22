@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: Yes
+  m_EditorClassIdentifier: 
+  storyText: 'On your dresser there''s a hair brush, on the side of your table there''s
+    a sword, in front of you there is a door to leave your room, and on your left
+    you have a closet.
+
+
+    What do you want to do?
+
+
+    1. Brush your hair
+
+    2. Take the sword
+
+    3. Look in your closet
+
+    4. Leave your room'
+  nextStates:
+  - {fileID: 11400000, guid: 0b288c97250a94d69bf770941d86da57, type: 2}
+  - {fileID: 11400000, guid: acfc12a4cccf5420ea8d824a417d5edd, type: 2}
+  - {fileID: 11400000, guid: 461ef4f79db5542cf802f0d32bc9b894, type: 2}
+  - {fileID: 11400000, guid: 046508bdfa291413881e8515cb0994a2, type: 2}
+  karmaPoints: 0
+  lost: 0

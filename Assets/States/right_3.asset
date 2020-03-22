@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: right_3
+  m_EditorClassIdentifier: 
+  storyText: 'You make the turn and keep walking along the path. In the distance you
+    see a deer running across the path. On your left there''s a big pond with ducks
+    swimming around. You see a mother duck guiding her chicks along.
+
+
+    As you walk further you see a right turn.
+
+
+    1. Turn right'
+  nextStates:
+  - {fileID: 11400000, guid: 3c2a377c7c3864ee3afd534c648bcefa, type: 2}
+  karmaPoints: 0

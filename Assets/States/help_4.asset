@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: help_4
+  m_EditorClassIdentifier: 
+  storyText: 'You ran to the doctor''s with the kid on your back. He''s passed out
+    and burning up. You burst through the door.
+
+
+    "Doctor, please help. This kid he might die please.."
+
+
+    "Hold on, let me check. Nurse get the bed ready. We have a long night."
+
+
+    "Yes doctor"
+
+
+    "He''ll be fine just stay here okay. He''s in good hands."
+
+
+    "Okay thank you.."
+
+
+    I think I should find his guardian.
+
+
+    1. Look for the kid''s parents'
+  nextStates:
+  - {fileID: 11400000, guid: a7644e1d10659437d80e62259f91fcf8, type: 2}
+  karmaPoints: -3
+  lost: 0

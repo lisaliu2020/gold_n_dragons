@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: help_3
+  m_EditorClassIdentifier: 
+  storyText: 'You decide to head back. You see the kid passed out on the ground. The
+    kid has a high fever and is breathing heavily.
+
+
+    Shit, lets go we need to bring the kid back. You get the kid on your shoulders
+    and run.
+
+
+    1. Go to doctors'
+  nextStates:
+  - {fileID: 11400000, guid: bd3f9e3ae3ede4d2e9d83ccf5819c9a3, type: 2}
+  karmaPoints: -2
+  lost: 0

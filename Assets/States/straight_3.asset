@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: straight_3
+  m_EditorClassIdentifier: 
+  storyText: 'You ignore the villagers and head towards town. You walk towards the
+    smoke and ash on the deserted road. Up ahead you hear someone crying.
+
+
+    It sounds like a child. You walk closer and see an injured child.
+
+
+    1. Help the child
+
+    2. Ignore the child, I have better things to do'
+  nextStates:
+  - {fileID: 11400000, guid: fda845bbf12734bebb761d51b2861db2, type: 2}
+  - {fileID: 11400000, guid: b0a57a81efa9f48fc977f197903532a3, type: 2}
+  karmaPoints: 0
+  lost: 0

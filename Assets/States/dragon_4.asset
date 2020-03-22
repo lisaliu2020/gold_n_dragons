@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: dragon_4
+  m_EditorClassIdentifier: 
+  storyText: 'You head inside and you see mountains of gold all around. You''re cautious
+    not to touch the treasure laid out before you.
+
+
+    Further inside the cave there''s another opening to go deeper in. You hear rumbling
+    sounds.
+
+
+    As you keep walking you begin to see smoke and hear something that resembles a
+    loud snore.
+
+
+    "Oh sh-, "
+
+
+    You look around to see if you woke the dragon up.
+
+
+    1. Take the dragon on yourself
+
+    2. Bring back rienforcements and kill the dragon'
+  nextStates:
+  - {fileID: 11400000, guid: ef46e553e2af0405d94ce96b8395c033, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  karmaPoints: 0
+  lost: 0

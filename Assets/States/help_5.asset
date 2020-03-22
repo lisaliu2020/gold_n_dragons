@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6b54b8fbfe84b3583f9fcf975b9d6d, type: 3}
+  m_Name: help_5
+  m_EditorClassIdentifier: 
+  storyText: 'You run around town trying to find the kid''s parents. You find them
+    and explain to them what happen.
+
+
+    "Oh god, thank you brave knight. Thank you so much. We''ve been looking all night
+    for him. Thank you"
+
+
+    "No no it''s fine. Let me take you to him."
+
+
+    You take the kid''s parent''s to the doctors. The kid seems to have new energy.
+
+
+    "MY nobel knight!! I want to be like you when I grow up. Thank you for helping
+    me. Look, the nurse gave me this toy!!"
+
+
+    "Hey kid I brought your parents, they were really worried about you.
+
+
+    "Momma, papa!!!"
+
+
+    You leave quietly and go back to investigate.
+
+
+    1. Go back to forest area and investigate'
+  nextStates:
+  - {fileID: 11400000, guid: c08a3658ffd9d44809755a3e11813271, type: 2}
+  karmaPoints: -2
+  lost: 0
